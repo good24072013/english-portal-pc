@@ -1,0 +1,15 @@
+/* Ag zolaq duzelisi: sehife yana surusende sagda acıq (ag) fon gorunmesin.
+   Fon rengi ayin temasindan gelir (themes.css --color-slate-950 deyisir). */
+html {
+  background-color: var(--color-slate-950, #020617);
+  overflow-x: hidden;
+  overscroll-behavior-x: none;
+}
+body {
+  background-color: var(--color-slate-950, #020617);
+  max-width: 100%;
+  overflow-x: clip;
+}
+#root {
+  max-width: 100%;
+}

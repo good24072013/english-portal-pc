@@ -1,0 +1,77 @@
+/* Hamburger -> X + ekrana yayilan menyu. Reng ayin temasindan gelir (--color-blue-600 = logonun rengi). */
+.elp-hb {
+  position: relative; z-index: 101; flex-shrink: 0;
+  width: 40px; height: 40px; border-radius: 12px; padding: 0;
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer;
+  background: var(--color-slate-900); border: 1px solid var(--color-slate-800); color: var(--color-slate-300);
+  transition: background-color .4s ease, border-color .4s ease, color .4s ease;
+  -webkit-tap-highlight-color: transparent;
+}
+.elp-hb.is-active { background: transparent; border-color: transparent; color: #fff; }
+.elp-hb-icon { width: 22px; height: 22px; overflow: visible; }
+.elp-hb .line { transition: transform .4s cubic-bezier(.4,0,.2,1), opacity .3s ease; }
+.elp-hb .line-top { transform-origin: 12px 6px; }
+.elp-hb .line-mid { transform-origin: 12px 12px; }
+.elp-hb .line-bot { transform-origin: 12px 18px; }
+.elp-hb.is-active .line-top { transform: translateY(6px) rotate(45deg); }
+.elp-hb.is-active .line-mid { transform: scaleX(0); opacity: 0; }
+.elp-hb.is-active .line-bot { transform: translateY(-6px) rotate(-45deg); }
+
+.elp-menu {
+  position: fixed; inset: 0; z-index: 99; overflow-y: auto; color: #fff;
+  background: var(--color-blue-600, #2563eb);
+  clip-path: circle(0px at var(--ox, 36px) var(--oy, 32px));
+  visibility: hidden;
+  transition: clip-path .6s cubic-bezier(.4,0,.2,1), visibility 0s linear .6s;
+}
+.elp-menu.is-open {
+  clip-path: circle(150% at var(--ox, 36px) var(--oy, 32px));
+  visibility: visible; transition-delay: 0s;
+}
+.elp-menu-inner {
+  min-height: 100%; max-width: 28rem; margin: 0 auto; box-sizing: border-box;
+  display: flex; flex-direction: column; justify-content: center;
+  padding: calc(4.5rem + env(safe-area-inset-top, 0px)) 1.5rem calc(2rem + env(safe-area-inset-bottom, 0px));
+}
+.elp-menu-user, .elp-menu-links li {
+  opacity: 0; transform: translateY(30px);
+  transition: opacity .4s cubic-bezier(.4,0,.2,1), transform .4s cubic-bezier(.4,0,.2,1);
+}
+.elp-menu-user { display: flex; align-items: center; gap: .9rem; }
+.elp-menu-name { font-size: 1.15rem; font-weight: 800; line-height: 1.2; margin: 0; overflow-wrap: anywhere; }
+.elp-menu-mail { font-size: .75rem; opacity: .8; margin: .15rem 0 0; overflow-wrap: anywhere; }
+.elp-menu-pills { display: flex; flex-wrap: wrap; gap: .4rem; margin-top: .5rem; }
+.elp-menu-pills span { font-size: .65rem; font-weight: 800; padding: .15rem .6rem; border-radius: 999px; background: rgba(255,255,255,.18); border: 1px solid rgba(255,255,255,.3); }
+.elp-menu-links { list-style: none; margin: 1.25rem 0 0; padding: 0; }
+.elp-menu-links li button {
+  display: flex; align-items: center; gap: .9rem; width: 100%; min-height: 3.4rem;
+  padding: .6rem .15rem; background: none; border: 0; border-bottom: 1px solid rgba(255,255,255,.18);
+  color: #fff; font: inherit; font-size: 1.2rem; font-weight: 600; letter-spacing: .2px; text-align: left; cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+.elp-menu-links li button:hover { filter: none; background: rgba(255,255,255,.08); }
+.elp-menu-links li button svg { flex-shrink: 0; opacity: .9; }
+.elp-menu-links li.elp-danger button { color: #fff; font-weight: 800; border-bottom-color: transparent; margin-top: .5rem; background: rgba(0,0,0,.22); border-radius: 14px; padding-left: .9rem; }
+.elp-menu.is-open .elp-menu-user, .elp-menu.is-open .elp-menu-links li { opacity: 1; transform: none; }
+.elp-menu.is-open .elp-menu-user { transition-delay: .15s; }
+.elp-menu.is-open .elp-menu-links li { transition-delay: calc(.2s + var(--i, 0) * .05s); }
+
+/* Mobil header: avatar sagdan kesilmesin */
+@media (max-width: 480px) {
+  header .h-16 { gap: .5rem; }
+  header .h-16 > div:first-child { min-width: 0; flex-shrink: 1; gap: .5rem; }
+  header .h-16 > div:first-child > div:last-child { min-width: 0; gap: .5rem; }
+  header .h-16 > div:first-child > div:last-child > div:last-child { min-width: 0; overflow: hidden; }
+  header .h-16 > div:first-child > div:last-child > div:last-child span { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  header .h-16 > div:first-child .font-extrabold { font-size: 13px; letter-spacing: 0; }
+  header .h-16 > div:first-child .font-extrabold + span { display: none; }
+  header .h-16 > div:first-child > div:last-child > div:first-child { width: 36px; height: 36px; border-radius: 12px; flex-shrink: 0; }
+  header .h-16 > div:last-child { gap: .4rem; }
+  header .h-16 > div:last-child .font-mono > div { padding: .3rem .5rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .elp-menu, .elp-menu-user, .elp-menu-links li, .elp-hb .line { transition: none !important; }
+}
+
+/* Menyu aciqken suzen palitra / ay nisani menyunun ustune dusmesin */
+body:has(.elp-menu.is-open) #theme-btn, body:has(.elp-menu.is-open) #month-badge, body:has(.elp-menu.is-open) #theme-panel { opacity: 0; pointer-events: none; transition: opacity .2s ease; }

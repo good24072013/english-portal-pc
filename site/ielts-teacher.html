@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="az">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>IELTS Homework — Müəllim</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+<style>
+*{box-sizing:border-box}
+html,body{margin:0;background:#020617;color:#fff;font-family:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif}
+.wrap{max-width:820px;margin:0 auto;padding:18px 16px 56px}
+.top{display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;gap:10px}
+.badge{font-size:11px;font-weight:800;letter-spacing:.08em;text-transform:uppercase;color:#fcd34d;background:#451a03;border:1px solid rgba(245,158,11,.4);padding:5px 12px;border-radius:999px}
+.bk{background:#1e293b;color:#cbd5e1;border:0;border-radius:12px;padding:8px 14px;font-weight:700;font-size:12px;cursor:pointer;text-decoration:none}
+.box{background:#0f172a;border:1px solid #1e293b;border-radius:22px;padding:16px;margin-bottom:14px}
+h2{margin:0 0 12px;font-size:16px}
+label{display:block;font-size:11px;color:#94a3b8;font-weight:700;margin:10px 0 4px}
+input,textarea{width:100%;padding:10px;border-radius:12px;background:#0b1220;border:1px solid #1e293b;color:#fff;font:inherit;font-size:13px}
+textarea{min-height:90px;resize:vertical}
+.row{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.btn{margin-top:12px;padding:11px 18px;border:0;border-radius:12px;background:#f59e0b;color:#1c1917;font-weight:800;font-size:12px;cursor:pointer}
+.btn.s{background:#1e293b;color:#cbd5e1;margin:0 6px 0 0;padding:8px 12px}
+.btn.d{background:#450a0a;color:#fca5a5}
+.hw{padding:14px;margin-bottom:10px;border-radius:16px;background:#020617;border:1px solid #1e293b;font-size:13px}
+.hw h3{margin:4px 0;font-size:15px}.hw p{margin:4px 0 8px;color:#cbd5e1;white-space:pre-wrap}
+.meta{font-size:11px;color:#94a3b8;font-family:ui-monospace,monospace}
+.sb{margin-top:10px;padding:12px;border-radius:14px;background:#0b1220;border:1px solid #1e293b}
+.sb b{font-size:13px}.sb .t{white-space:pre-wrap;color:#e2e8f0;font-size:12px;margin:6px 0;line-height:1.55}
+.g{display:grid;grid-template-columns:90px 1fr auto;gap:8px;align-items:end}
+.empty{padding:22px;text-align:center;color:#94a3b8;font-size:13px}
+.tabs{display:flex;gap:8px;margin-bottom:14px;overflow-x:auto}.tb{padding:10px 16px;border-radius:14px;border:0;background:#0f172a;color:#94a3b8;font:inherit;font-weight:700;font-size:12px;cursor:pointer;white-space:nowrap}.tb.on{background:#2563eb;color:#fff}select{width:100%;padding:10px;border-radius:12px;background:#0b1220;border:1px solid #1e293b;color:#fff;font:inherit;font-size:13px}.it{display:flex;justify-content:space-between;gap:10px;align-items:center;padding:12px;margin-bottom:8px;border-radius:14px;background:#020617;border:1px solid #1e293b;font-size:13px}.it small{display:block;color:#94a3b8;margin-top:2px}
+.err{position:fixed;top:0;left:0;right:0;background:#b91c1c;color:#fff;font-size:12px;padding:8px 14px;z-index:50}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="top"><span class="badge">🎯 IELTS Homework</span><a class="bk" href="/">← Əsas panel</a></div>
+  <div class="tabs"><button class="tb on" data-s="hw">📝 Homework</button><button class="tb" data-s="pod">🎧 Podcast / Article</button><button class="tb" data-s="es">✍️ Sample essays</button></div>
+  <div class="sec" data-s="hw">
+  <div class="box">
+    <h2>➕ Yeni IELTS tapşırığı</h2>
+    <label>Başlıq *</label><input id="t" placeholder="məs. Writing Task 2: Technology" />
+    <label>Təsvir / tapşırıq mətni</label><textarea id="d"></textarea>
+    <div class="row"><div><label>Mövzu</label><input id="sj" placeholder="Writing / Reading / Listening / Speaking" /></div><div><label>Son tarix</label><input id="du" type="date" /></div></div>
+    <label>PDF (istəyə bağlı, 700 KB-a qədər)</label><input id="pf" type="file" accept="application/pdf" />
+    <button class="btn" id="add">Əlavə et</button>
+  </div>
+  <div class="box"><h2>📚 IELTS tapşırıqları</h2><div id="list"><div class="empty">Yüklənir...</div></div></div>
+  </div>
+  <div class="sec" data-s="pod" hidden>
+    <div class="box"><h2>➕ Podcast / Məqalə əlavə et</h2>
+      <label>Növ</label><select id="mk"><option value="podcast">🎧 Podcast</option><option value="article">📰 Məqalə</option></select>
+      <label>Başlıq *</label><input id="mt" />
+      <label>Link (https://...)</label><input id="mu" placeholder="https://" />
+      <label>Qısa təsvir</label><textarea id="md"></textarea>
+      <button class="btn" id="madd">Əlavə et</button></div>
+    <div class="box"><h2>📚 Əlavə olunanlar</h2><div id="mlist"><div class="empty">Yüklənir...</div></div></div>
+  </div>
+  <div class="sec" data-s="es" hidden>
+    <div class="box"><h2>➕ Sample essay əlavə et</h2>
+      <label>Başlıq *</label><input id="et" />
+      <label>Növ (məs. Opinion essay • Task 2)</label><input id="ek" />
+      <label>Sual (essay mövzusu)</label><textarea id="eq" style="min-height:60px"></textarea>
+      <label>Essay mətni * (paraqrafları boş sətirlə ayırın)</label><textarea id="eb" style="min-height:180px"></textarea>
+      <label>Məsləhət (istəyə bağlı)</label><input id="ep" />
+      <button class="btn" id="eadd">Əlavə et</button></div>
+    <div class="box"><h2>📚 Əlavə olunanlar</h2><div id="elist"><div class="empty">Yüklənir...</div></div></div>
+  </div>
+</div>
+<div class="err" id="err" hidden></div>
+<script src="/firebase-config.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore-compat.js"></script>
+<script>
+(function(){
+var SK='elp_current_user_session_v3',HW='ielts_homework',SUB='ielts_submissions';
+var me=null;try{me=JSON.parse(localStorage.getItem(SK)||'null')}catch(e){}
+if(!me||(me.role!=='teacher'&&me.role!=='admin')){location.replace('/');return}
+var db=null;try{firebase.initializeApp(window.__FB__);db=firebase.firestore()}catch(e){}
+var $=function(i){return document.getElementById(i)};
+function esc(t){var d=document.createElement('div');d.textContent=t==null?'':t;return d.innerHTML}
+function fail(m){var e=$('err');e.textContent='Firebase xətası: '+m+' (Firestore Rules-u yoxlayın)';e.hidden=false}
+var HWS=[],SUBS={};
+function loadAll(){
+  Promise.all([db.collection(HW).get(),db.collection(SUB).get()]).then(function(r){
+    HWS=[];r[0].forEach(function(d){HWS.push(d.data())});HWS.sort(function(a,b){return String(b.id).localeCompare(String(a.id))});
+    SUBS={};r[1].forEach(function(d){var s=d.data();(SUBS[s.homeworkId]=SUBS[s.homeworkId]||[]).push(s)});draw()
+  }).catch(function(e){fail(e.message);$('list').innerHTML='<div class="empty">Yüklənmədi: '+esc(e.message)+'</div>'})}
+function draw(){
+  if(!HWS.length){$('list').innerHTML='<div class="empty">Hələ tapşırıq yoxdur.</div>';return}
+  $('list').innerHTML=HWS.map(function(h){
+    var ss=SUBS[h.id]||[];
+    return '<div class="hw" data-id="'+esc(h.id)+'"><div class="meta">'+esc(h.subject||'IELTS')+' • Due: '+esc(h.dueDate||'—')+' • Göndərən: '+ss.length+'</div><h3>'+esc(h.title)+'</h3><p>'+esc(h.description)+'</p>'+(h.pdf?'<div class="meta">📎 '+esc(h.pdf)+'</div>':'')+
+    '<div style="margin-top:8px"><button class="btn s" data-open="'+esc(h.id)+'">Cavablar ('+ss.length+')</button><button class="btn s d" data-del="'+esc(h.id)+'">Sil</button></div><div class="subs" hidden>'+
+    (ss.length?ss.map(function(s,i){return '<div class="sb"><b>'+esc(s.studentName)+'</b> <span class="meta">'+esc((s.submittedAt||'').slice(0,16).replace('T',' '))+'</span><div class="t">'+esc(s.text)+'</div><div class="g" data-sid="'+esc(s.id)+'"><div><label>Bal</label><input class="sc" value="'+esc(s.score==null?'':s.score)+'" /></div><div><label>Rəy</label><input class="fbk" value="'+esc(s.feedback||'')+'" /></div><button class="btn s" data-grade="'+esc(s.id)+'">Saxla</button></div></div>'}).join(''):'<div class="empty">Hələ cavab yoxdur.</div>')+'</div></div>'}).join('')}
+$('list').addEventListener('click',function(ev){
+  var b=ev.target.closest('button');if(!b)return;
+  if(b.dataset.open){var s=b.closest('.hw').querySelector('.subs');s.hidden=!s.hidden}
+  else if(b.dataset.del){if(!confirm('Silinsin?'))return;var id=b.dataset.del;
+    db.collection(HW).doc(id).delete().then(function(){db.collection('quizFiles').doc(id).delete().catch(function(){});loadAll()}).catch(function(e){fail(e.message)})}
+  else if(b.dataset.grade){var g=b.closest('.g'),sc=g.querySelector('.sc').value.trim(),fb=g.querySelector('.fbk').value.trim();
+    db.collection(SUB).doc(b.dataset.grade).set({score:sc===''?null:(isNaN(+sc)?sc:+sc),feedback:fb,gradedBy:me.name||'',gradedAt:new Date().toISOString()},{merge:true}).then(function(){b.textContent='✓ Saxlandı'}).catch(function(e){fail(e.message)})}});
+$('add').onclick=function(){
+  var t=$('t').value.trim();if(!t){alert('Başlıq yazın');return}
+  var id='ih-'+Date.now(),doc={id:id,title:t,description:$('d').value.trim(),subject:$('sj').value.trim()||'IELTS',dueDate:$('du').value,createdBy:me.name||'',createdAt:new Date().toISOString()};
+  var f=$('pf').files&&$('pf').files[0];
+  function put(){db.collection(HW).doc(id).set(doc).then(function(){['t','d','sj','du','pf'].forEach(function(k){$(k).value=''});loadAll()}).catch(function(e){fail(e.message);alert('Yadda saxlanmadı: '+e.message)})}
+  if(!f)return put();
+  if(f.size>700*1024){alert('PDF 700 KB-dan böyükdür');return}
+  var fr=new FileReader();fr.onload=function(){doc.pdf=f.name;
+    db.collection('quizFiles').doc(id).set({name:f.name,data:fr.result}).then(put).catch(function(e){fail(e.message)})};fr.readAsDataURL(f)};
+loadAll();
+function tabs(){document.querySelectorAll('.tb').forEach(function(b){b.onclick=function(){
+  document.querySelectorAll('.tb').forEach(function(x){x.classList.toggle('on',x===b)});
+  document.querySelectorAll('.sec').forEach(function(x){x.hidden=x.dataset.s!==b.dataset.s})}})}
+tabs();
+function simple(col,listId,line,id){
+  db.collection(col).get().then(function(r){var A=[];r.forEach(function(d){A.push(d.data())});A.sort(function(a,b){return String(b.id).localeCompare(String(a.id))});
+    $(listId).innerHTML=A.length?A.map(function(x){return '<div class="it"><div>'+line(x)+'</div><button class="btn s d" data-c="'+col+'" data-d="'+esc(x.id)+'">Sil</button></div>'}).join(''):'<div class="empty">Hələ yoxdur.</div>'}).catch(function(e){fail(e.message)})}
+function loadMat(){
+  simple('ielts_materials','mlist',function(x){return (x.kind==='podcast'?'🎧 ':'📰 ')+esc(x.title)+'<small>'+esc(x.url||'')+'</small>'});
+  simple('ielts_essays','elist',function(x){return '✍️ '+esc(x.title)+'<small>'+esc(x.kind||'')+'</small>'})}
+['mlist','elist'].forEach(function(i){$(i).addEventListener('click',function(ev){var b=ev.target.closest('button');if(!b||!b.dataset.d)return;if(!confirm('Silinsin?'))return;
+  db.collection(b.dataset.c).doc(b.dataset.d).delete().then(loadMat).catch(function(e){fail(e.message)})})});
+$('madd').onclick=function(){var t=$('mt').value.trim();if(!t){alert('Başlıq yazın');return}
+  var u=$('mu').value.trim();if(u&&!/^https?:\/\//i.test(u)){alert('Link https:// ilə başlamalıdır');return}
+  var id='im-'+Date.now();db.collection('ielts_materials').doc(id).set({id:id,kind:$('mk').value,title:t,url:u,description:$('md').value.trim(),createdBy:me.name||'',createdAt:new Date().toISOString()}).then(function(){['mt','mu','md'].forEach(function(k){$(k).value=''});loadMat()}).catch(function(e){fail(e.message);alert('Yadda saxlanmadı: '+e.message)})};
+$('eadd').onclick=function(){var t=$('et').value.trim(),b=$('eb').value.trim();if(!t||!b){alert('Başlıq və essay mətni lazımdır');return}
+  var id='ie-'+Date.now();db.collection('ielts_essays').doc(id).set({id:id,title:t,kind:$('ek').value.trim(),question:$('eq').value.trim(),body:b,tip:$('ep').value.trim(),createdBy:me.name||'',createdAt:new Date().toISOString()}).then(function(){['et','ek','eq','eb','ep'].forEach(function(k){$(k).value=''});loadMat()}).catch(function(e){fail(e.message);alert('Yadda saxlanmadı: '+e.message)})};
+loadMat();
+})();
+</script>
+</body>
+</html>

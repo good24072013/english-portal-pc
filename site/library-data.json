@@ -1,0 +1,530 @@
+[
+  {
+    "id": "book-sherlock-holmes",
+    "title": "The Adventures of Sherlock Holmes: The Red-Headed League",
+    "author": "Sir Arthur Conan Doyle",
+    "level": "B1",
+    "category": "Fiction",
+    "description": "A mysterious gentleman visits 221B Baker Street with an extraordinary story about a league of red-headed men and a bizarre job copying the Encyclopædia Britannica.",
+    "fileType": "pdf",
+    "fileUrl": "/books/sherlock-holmes.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-26",
+    "chapters": [
+      {
+        "title": "Chapter 1: The Strange Client",
+        "paragraphs": [
+          "I had called upon my friend, Mr. Sherlock Holmes, one day in the autumn of last year and found him in deep conversation with a very stout, florid-faced, elderly gentleman with fiery red hair.",
+          "With an apology for my intrusion, I was about to withdraw when Holmes pulled me abruptly into the room and closed the door behind me.",
+          "'You could not possibly have come at a better time, my dear Watson,' he said cordially. 'Mr. Jabez Wilson here has been good enough to tell me a story which promises to be one of the most singular that I have listened to for some time.'"
+        ],
+        "vocabulary": [
+          {
+            "word": "Intrusion",
+            "phonetic": "/ɪnˈtruː.ʒən/",
+            "meaningEn": "The act of entering without invitation",
+            "meaningAz": "İcazəsiz daxil olma, müdaxilə"
+          },
+          {
+            "word": "Cordially",
+            "phonetic": "/ˈkɔː.di.ə.li/",
+            "meaningEn": "In a warm and friendly manner",
+            "meaningAz": "Səmimiyyətlə, nəzakətlə"
+          },
+          {
+            "word": "Singular",
+            "phonetic": "/ˈsɪŋ.ɡjə.lər/",
+            "meaningEn": "Remarkable, extraordinary, unique",
+            "meaningAz": "Fövqəladə, qeyri-adi"
+          }
+        ],
+        "questions": [
+          "What was distinctive about Mr. Jabez Wilson's appearance?",
+          "Why did Sherlock Holmes ask Dr. Watson to stay in the room?"
+        ]
+      },
+      {
+        "title": "Chapter 2: The Red-Headed League",
+        "paragraphs": [
+          "'Well, Watson,' said Holmes, 'it appeared in the morning paper two months ago: TO THE RED-HEADED LEAGUE: On account of the bequest of the late Ezekiah Hopkins, of Lebanon, Pennsylvania, U.S.A., there is now another vacancy open which entitles a member of the League to a salary of 4 pounds a week for purely nominal services.'",
+          "Mr. Wilson explained how his assistant Vincent Spaulding encouraged him to apply, and how he was accepted into the office where his sole duty was to copy out the Encyclopædia Britannica from nine until two every day.",
+          "Then, one Saturday morning, a notice was pinned to the door: 'THE RED-HEADED LEAGUE IS DISSOLVED. October 9, 1890.' The entire office was empty, and the league had vanished without a trace."
+        ],
+        "vocabulary": [
+          {
+            "word": "Bequest",
+            "phonetic": "/bɪˈkwest/",
+            "meaningEn": "A legacy or property left in a will",
+            "meaningAz": "Vəsiyyət, miras"
+          },
+          {
+            "word": "Vacancy",
+            "phonetic": "/ˈveɪ.kən.si/",
+            "meaningEn": "An unoccupied position or job",
+            "meaningAz": "Vakansiya, boş iş yeri"
+          },
+          {
+            "word": "Dissolved",
+            "phonetic": "/dɪˈzɒlvd/",
+            "meaningEn": "Officially closed down or ended",
+            "meaningAz": "Ləğv edildi, bağlandı"
+          }
+        ],
+        "questions": [
+          "What task was Mr. Wilson paid four pounds a week to perform?",
+          "What shocking message was posted on the office door?"
+        ]
+      },
+      {
+        "title": "Chapter 3: The Cellar at Coburg Square",
+        "paragraphs": [
+          "Holmes examined the pavement outside Jabez Wilson's pawnbroker shop by tapping his walking stick against the stones. He noticed Vincent Spaulding's trousers were worn and stained with dirt at the knees.",
+          "'Watson,' whispered Holmes, 'a huge crime is being prepared. Tonight we shall catch one of the coolest and most daring criminals in London.'",
+          "That night, waiting in the dark vault beneath the City and Suburban Bank, Holmes and Watson sprang upon the infamous John Clay just as he broke through the cellar floor to steal thirty thousand Napoleons in gold bullion!"
+        ],
+        "vocabulary": [
+          {
+            "word": "Pawnbroker",
+            "phonetic": "/ˈpɔːnˌbrəʊ.kər/",
+            "meaningEn": "A person who lends money on the security of personal property",
+            "meaningAz": "Lombardçı"
+          },
+          {
+            "word": "Bullion",
+            "phonetic": "/ˈbʊl.jən/",
+            "meaningEn": "Gold or silver in bulk before coining",
+            "meaningAz": "Külçə qızıl"
+          },
+          {
+            "word": "Infamous",
+            "phonetic": "/ˈɪn.fə.məs/",
+            "meaningEn": "Well known for some bad quality or deed",
+            "meaningAz": "Bədnam, adı çıxmış"
+          }
+        ],
+        "questions": [
+          "Why were the assistant's trouser knees stained with dirt?",
+          "What was the real purpose behind the Red-Headed League?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "book-little-prince",
+    "title": "The Little Prince (Illustrated English Reader)",
+    "author": "Antoine de Saint-Exupéry",
+    "level": "A2",
+    "category": "Fiction",
+    "description": "An aviator stranded in the desert meets an extraordinary young prince from Asteroid B-612 who teaches him profound lessons about love, friendship, and seeing with the heart.",
+    "fileType": "pdf",
+    "fileUrl": "/books/little-prince.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-26",
+    "chapters": [
+      {
+        "title": "Chapter 1: The Aviator and the Desert",
+        "paragraphs": [
+          "Six years ago, I had an accident with my airplane in the desert of Sahara. Something was broken in my engine. And as I had with me neither a mechanic nor any passengers, I set myself to attempt the difficult repair all alone. It was a question of life or death for me: I had scarcely enough drinking water for a week.",
+          "The first night, then, I went to sleep on the sand, a thousand miles from any human habitation. I was more isolated than a shipwrecked sailor on a raft in the middle of the ocean.",
+          "Thus you can imagine my amazement at sunrise when an odd little voice woke me up. It said: 'If you please—draw me a sheep!'"
+        ],
+        "vocabulary": [
+          {
+            "word": "Scarcely",
+            "phonetic": "/ˈskeəs.li/",
+            "meaningEn": "Barely, only just",
+            "meaningAz": "Çətinliklə, güclə"
+          },
+          {
+            "word": "Habitation",
+            "phonetic": "/ˌhæb.ɪˈteɪ.ʃən/",
+            "meaningEn": "The state of a place being lived in",
+            "meaningAz": "Məskunlaşma, yaşayış"
+          },
+          {
+            "word": "Amazement",
+            "phonetic": "/əˈmeɪz.mənt/",
+            "meaningEn": "A feeling of great surprise or wonder",
+            "meaningAz": "Təəccüb, heyranlıq"
+          }
+        ],
+        "questions": [
+          "Why was the aviator stranded alone in the desert?",
+          "What was the very first request made by the little voice?"
+        ]
+      },
+      {
+        "title": "Chapter 2: Asteroid B-612 and the Rose",
+        "paragraphs": [
+          "The little prince lived on a planet scarcely larger than a house: Asteroid B-612. On his planet there were baobab trees that threatened to tear the soil apart if they were not pulled out when they were young.",
+          "And on his planet, there was also a flower—a proud, delicate rose with four thorns. She demanded water, a glass globe to shield her from the wind, and constant admiration.",
+          "'I ought not to have listened to her,' the little prince confided to me. 'One never ought to listen to the flowers. One should simply look at them and breathe their fragrance. Mine perfumed all my planet, but I did not know how to take pleasure in all her grace.'"
+        ],
+        "vocabulary": [
+          {
+            "word": "Delicate",
+            "phonetic": "/ˈdel.ɪ.kət/",
+            "meaningEn": "Fragile, easily broken or harmed",
+            "meaningAz": "Zərif, incə"
+          },
+          {
+            "word": "Fragrance",
+            "phonetic": "/ˈfreɪ.ɡrəns/",
+            "meaningEn": "A sweet or pleasant smell",
+            "meaningAz": "Ətir, xoş qoxu"
+          },
+          {
+            "word": "Confide",
+            "phonetic": "/kənˈfaɪd/",
+            "meaningEn": "To share a secret in trust",
+            "meaningAz": "Sirr vermək, etibar etmək"
+          }
+        ],
+        "questions": [
+          "Why did the little prince need to pull out young baobabs?",
+          "What did the flower require from the little prince?"
+        ]
+      },
+      {
+        "title": "Chapter 3: The Secret of the Fox",
+        "paragraphs": [
+          "It was then that the fox appeared under the apple tree.",
+          "'Come and play with me,' proposed the little prince. 'I am so sad.'",
+          "'I cannot play with you,' said the fox. 'I am not tamed. To tame means to create ties. To me, you are still nothing more than a little boy who is like a hundred thousand other little boys. And I have no need of you. And you, on your part, have no need of me. But if you tame me, then we shall need each other. To me, you will be unique in all the world.'",
+          "When the time came to say goodbye, the fox gave the prince his secret: 'And now here is my secret, a very simple secret: It is only with the heart that one can see rightly; what is essential is invisible to the eye.'"
+        ],
+        "vocabulary": [
+          {
+            "word": "Tamed",
+            "phonetic": "/teɪmd/",
+            "meaningEn": "Brought into a state of trust and friendship",
+            "meaningAz": "Əhlilləşdirilmiş, yaxınlaşmış"
+          },
+          {
+            "word": "Essential",
+            "phonetic": "/ɪˈsen.ʃəl/",
+            "meaningEn": "Absolutely necessary, most vital",
+            "meaningAz": "Əsas, ən vacib"
+          },
+          {
+            "word": "Invisible",
+            "phonetic": "/ɪnˈvɪz.ə.bəl/",
+            "meaningEn": "Unable to be seen by the eyes",
+            "meaningAz": "Gözəgörünməz"
+          }
+        ],
+        "questions": [
+          "What does 'to tame' mean according to the fox?",
+          "What is the famous secret that the fox reveals to the prince?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "book-grammar-essential",
+    "title": "English Grammar in Use: Essential Master Rules",
+    "author": "English Learning Portal Press",
+    "level": "A1",
+    "category": "Grammar",
+    "description": "Clear, practical explanations and examples for mastering the essential grammar tenses, auxiliary verbs, questions, and sentence structures.",
+    "fileType": "pdf",
+    "fileUrl": "/books/english-grammar-essential.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-25",
+    "chapters": [
+      {
+        "title": "Unit 1: Present Simple vs. Present Continuous",
+        "paragraphs": [
+          "We use the Present Simple for things that are true in general, or things that happen repeatedly (habits, routines, scientific facts). Examples: 'The sun rises in the east.' 'I study English every single day.'",
+          "We use the Present Continuous (am/is/are + verb-ing) for things that are happening right now at the moment of speaking, or around the present time. Examples: 'Please be quiet, I am taking an English exam right now.' 'She is living with her sister this month.'",
+          "Remember state verbs: Verbs of thinking, feeling, and senses (like, love, want, know, understand, believe, remember) are normally NOT used in continuous tenses. We say: 'I understand the lesson' (NOT: 'I am understanding')."
+        ],
+        "vocabulary": [
+          {
+            "word": "Routine",
+            "phonetic": "/ruːˈtiːn/",
+            "meaningEn": "A regular way of doing things",
+            "meaningAz": "Rejim, vərdiş"
+          },
+          {
+            "word": "Continuous",
+            "phonetic": "/kənˈtɪn.ju.əs/",
+            "meaningEn": "Without interruption or happening now",
+            "meaningAz": "Davam edən"
+          },
+          {
+            "word": "Stative Verb",
+            "phonetic": "/ˈsteɪ.tɪv vɜːb/",
+            "meaningEn": "A verb that describes a state rather than an action",
+            "meaningAz": "Vəziyyət bildirən fel"
+          }
+        ],
+        "questions": [
+          "When should you use the Present Continuous instead of the Present Simple?",
+          "Why is 'I am knowing English' grammatically incorrect?"
+        ]
+      },
+      {
+        "title": "Unit 2: Past Simple vs. Present Perfect",
+        "paragraphs": [
+          "The Past Simple tells us about an action that happened at a specific, finished time in the past. It uses time words like: yesterday, in 2020, two years ago, last week, when I was a child. Example: 'I visited London in 2023.'",
+          "The Present Perfect (have/has + past participle) connects the past with the present! We use it when the time is not finished (today, this week), or when the exact time does not matter, or for life experience. Example: 'I have visited London three times in my life.'",
+          "Notice the difference: 'Did you see John this morning?' (It is now afternoon; the morning is over). 'Have you seen John this morning?' (It is still morning now)."
+        ],
+        "vocabulary": [
+          {
+            "word": "Specific",
+            "phonetic": "/spəˈsɪf.ɪk/",
+            "meaningEn": "Clearly defined or identified",
+            "meaningAz": "Dəqiq, xüsusi"
+          },
+          {
+            "word": "Participle",
+            "phonetic": "/ˈpɑː.tɪ.sɪ.pəl/",
+            "meaningEn": "The third form of a verb (e.g., gone, eaten)",
+            "meaningAz": "Feli sifət / 3-cü forma"
+          },
+          {
+            "word": "Experience",
+            "phonetic": "/ɪkˈspɪə.ri.əns/",
+            "meaningEn": "Knowledge or skill gained over time",
+            "meaningAz": "Təcrübə"
+          }
+        ],
+        "questions": [
+          "Which tense is used with finished time expressions like 'yesterday'?",
+          "How does Present Perfect connect past actions to the present moment?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "book-oxford-3000",
+    "title": "Oxford 3000: Essential English Vocabulary Master Guide",
+    "author": "Oxford English Editions",
+    "level": "B1",
+    "category": "Vocabulary",
+    "description": "The core 3,000 words that every learner of English must know to understand 85% of spoken and written English around the world.",
+    "fileType": "pdf",
+    "fileUrl": "/books/oxford-3000-vocabulary.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-25",
+    "chapters": [
+      {
+        "title": "Part 1: High-Frequency Verbs for Action & Communication",
+        "paragraphs": [
+          "High-frequency verbs form the engine of every English conversation. Mastering words like accomplish, articulate, collaborate, negotiate, and persevere allows you to express nuanced thoughts with absolute confidence.",
+          "To accomplish something means to succeed in doing or finishing it, especially after hard work. Example: 'She accomplished her goal of reaching CEFR Level C1 in just nine months.'",
+          "To articulate means to express an idea clearly in words. Example: 'He was able to articulate his feelings during the job interview with impressive fluency.'"
+        ],
+        "vocabulary": [
+          {
+            "word": "Accomplish",
+            "phonetic": "/əˈkʌm.plɪʃ/",
+            "meaningEn": "To succeed in doing or completing",
+            "meaningAz": "Nail olmaq, başa çatdırmaq"
+          },
+          {
+            "word": "Articulate",
+            "phonetic": "/ɑːˈtɪk.jə.lət/",
+            "meaningEn": "Able to express thoughts clearly",
+            "meaningAz": "Aydın ifadə edən"
+          },
+          {
+            "word": "Collaborate",
+            "phonetic": "/kəˈlæb.ə.reɪt/",
+            "meaningEn": "Work jointly on an activity or project",
+            "meaningAz": "Əməkdaşlıq etmək"
+          }
+        ],
+        "questions": [
+          "What is the difference between 'doing' a task and 'accomplishing' a goal?",
+          "How can you practice articulating complex opinions in English?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "book-around-world-80-days",
+    "title": "Around the World in 80 Days (Simplified Classic)",
+    "author": "Jules Verne",
+    "level": "A2",
+    "category": "Fiction",
+    "description": "Join the methodical Englishman Phileas Fogg and his French valet Passepartout as they attempt an impossible race against the clock across continents and oceans.",
+    "fileType": "pdf",
+    "fileUrl": "/books/around-the-world-in-80-days.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-26",
+    "chapters": [
+      {
+        "title": "Chapter 1: The Wager at the Reform Club",
+        "paragraphs": [
+          "In the year 1872, the house at Number 7 Savile Row was inhabited by Phileas Fogg, Esq., one of the most enigmatic and punctual gentlemen in the British Empire.",
+          "At the Reform Club on Wednesday evening, his companions were arguing about the new Great Indian Peninsula Railway. 'A man can travel around the entire world in eighty days now!' exclaimed Fogg calmly.",
+          "'That is impossible!' cried his friend Ralph. 'I will bet twenty thousand pounds against anyone that I will do the tour of the world in eighty days or less,' replied Fogg. The wager was signed!"
+        ],
+        "vocabulary": [
+          {
+            "word": "Punctual",
+            "phonetic": "/ˈpʌŋk.tʃu.əl/",
+            "meaningEn": "Happening or doing something at the agreed time",
+            "meaningAz": "Dəqiq, vaxtında gələn"
+          },
+          {
+            "word": "Enigmatic",
+            "phonetic": "/ˌen.ɪɡˈmæt.ɪk/",
+            "meaningEn": "Mysterious and difficult to understand",
+            "meaningAz": "Müəmmalı, sirli"
+          },
+          {
+            "word": "Wager",
+            "phonetic": "/ˈweɪ.dʒər/",
+            "meaningEn": "A bet or gamble",
+            "meaningAz": "Mərc, bəhs"
+          }
+        ],
+        "questions": [
+          "How much money did Phileas Fogg bet at the Reform Club?",
+          "How many days did he have to complete his journey around the world?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "book-animal-farm",
+    "title": "Animal Farm: Graded Reader Edition",
+    "author": "George Orwell",
+    "level": "B1",
+    "category": "Fiction",
+    "description": "An allegory of power and revolution where the animals of Manor Farm overthrow their human master, seeking a society of equality and freedom.",
+    "fileType": "pdf",
+    "fileUrl": "/books/animal-farm.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-25",
+    "chapters": [
+      {
+        "title": "Chapter 1: Old Major's Dream",
+        "paragraphs": [
+          "Mr. Jones, of the Manor Farm, had locked the hen-houses for the night, but was too drunk to remember to shut the pop-holes.",
+          "As soon as the light in the bedroom went out there was a stirring and a fluttering all through the farm buildings. Word had gone round during the day that old Major, the prize Middle White boar, had had a strange dream on the previous night and wished to communicate it to the other animals.",
+          "'Comrades,' said Major, 'our lives are miserable, laborious, and short. No animal in England knows the meaning of happiness or leisure after he is a year old. Why do we continue in this condition? Because nearly the whole of the produce of our labour is stolen from us by human beings. Remove Man, and the root cause of hunger and overwork is abolished forever!'"
+        ],
+        "vocabulary": [
+          {
+            "word": "Laborious",
+            "phonetic": "/ləˈbɔː.ri.əs/",
+            "meaningEn": "Requiring much hard work and effort",
+            "meaningAz": "Zəhmətli, ağır"
+          },
+          {
+            "word": "Comrade",
+            "phonetic": "/ˈkɒm.reɪd/",
+            "meaningEn": "A fellow member of an organization or group",
+            "meaningAz": "Yoldaş"
+          },
+          {
+            "word": "Abolished",
+            "phonetic": "/əˈbɒl.ɪʃt/",
+            "meaningEn": "Formally put an end to a system or practice",
+            "meaningAz": "Ləğv edilmiş"
+          }
+        ],
+        "questions": [
+          "Who was Old Major and why did the animals gather to hear him speak?",
+          "According to Major, what was the single cause of the animals' misery?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "book-ielts-booster",
+    "title": "IELTS & CEFR Academic Reading & Writing Booster",
+    "author": "Cambridge English Preparatory",
+    "level": "B2",
+    "category": "Exam Prep",
+    "description": "Proven strategies for academic skimming, scanning, answering True/False/Not Given questions, and constructing high-scoring Band 7.5+ essays.",
+    "fileType": "pdf",
+    "fileUrl": "/books/ielts-reading-booster.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-25",
+    "chapters": [
+      {
+        "title": "Module 1: Skimming, Scanning & True/False/Not Given",
+        "paragraphs": [
+          "Academic reading passages are over 900 words long, and you have only 20 minutes per passage. You must NOT read word-for-word. Instead, use Skimming to capture the overall gist in two minutes, and Scanning to locate specific keywords and dates.",
+          "The most common mistake in IELTS Reading is confusing 'FALSE' with 'NOT GIVEN'. Remember: 'FALSE' means the text directly contradicts the statement. 'NOT GIVEN' means the text does not contain enough information to prove or disprove the statement.",
+          "Look out for qualifying words such as always, never, sometimes, frequently, usually, possible, and probable. These small words completely transform the truth value of a claim."
+        ],
+        "vocabulary": [
+          {
+            "word": "Skimming",
+            "phonetic": "/ˈskɪm.ɪŋ/",
+            "meaningEn": "Reading quickly to get the main idea",
+            "meaningAz": "Sürətlə gözdən keçirmə"
+          },
+          {
+            "word": "Contradict",
+            "phonetic": "/ˌkɒn.trəˈdɪkt/",
+            "meaningEn": "To assert the opposite of a statement",
+            "meaningAz": "Zidd olmaq, təkzib etmək"
+          },
+          {
+            "word": "Qualifying",
+            "phonetic": "/ˈkwɒl.ɪ.faɪ.ɪŋ/",
+            "meaningEn": "Limiting or moderating the meaning of another word",
+            "meaningAz": "Şərtləndirən, dəqiqləşdirən"
+          }
+        ],
+        "questions": [
+          "What is the strict difference between 'FALSE' and 'NOT GIVEN'?",
+          "How can qualifying adverbs like 'usually' change a statement's accuracy?"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "book-everyday-conversations",
+    "title": "Everyday English Conversations & Real-Life Dialogues",
+    "author": "British Council Academy",
+    "level": "A2",
+    "category": "General",
+    "description": "50 practical, everyday dialogues: checking in at hotels, ordering coffee, job interviews, making appointments, and socializing naturally.",
+    "fileType": "pdf",
+    "fileUrl": "/books/everyday-conversations.html",
+    "uploadedBy": "Admin Teacher",
+    "uploadedAt": "2026-10-25",
+    "chapters": [
+      {
+        "title": "Unit 1: Socializing & Introducing Yourself",
+        "paragraphs": [
+          "A: 'Hi there! Is anyone sitting here?'\nB: 'No, please go ahead and take a seat. I am Sarah, by the way.'\nA: 'Pleasure to meet you, Sarah! I am David. Are you here for the English speaking workshop?'\nB: 'Yes, exactly! I am hoping to brush up on my conversational skills before starting my new job next month.'",
+          "Useful phrases for small talk: 'Do you mind if I join you?' • 'What brings you here today?' • 'How is your week going so far?' • 'I couldn't help but notice your accent—where are you from?'"
+        ],
+        "vocabulary": [
+          {
+            "word": "Brush up on",
+            "phonetic": "/brʌʃ ʌp ɒn/",
+            "meaningEn": "To refresh or improve knowledge of something",
+            "meaningAz": "Bilikləri təzələmək"
+          },
+          {
+            "word": "Conversational",
+            "phonetic": "/ˌkɒn.vəˈseɪ.ʃən.əl/",
+            "meaningEn": "Relating to casual talking and speech",
+            "meaningAz": "Danışıq aid olan"
+          },
+          {
+            "word": "Small talk",
+            "phonetic": "/smɔːl tɔːk/",
+            "meaningEn": "Polite, informal conversation about light topics",
+            "meaningAz": "Qeyri-rəsmi söhbət"
+          }
+        ],
+        "questions": [
+          "What polite question can you ask when sitting next to someone?",
+          "What does the phrasal verb 'brush up on' mean?"
+        ]
+      }
+    ]
+  }
+]

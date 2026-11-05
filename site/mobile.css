@@ -1,0 +1,33 @@
+/* Mobil UI duzelisleri (telefon ekranlari ucun). Yalniz kicik ekranlarda ve toxunma cihazlarinda isleyir. */
+.min-h-screen { min-height: 100dvh; }
+.max-h-\[90vh\] { max-height: 90dvh; }
+p, h1, h2, h3, h4, span, td, th, label { overflow-wrap: break-word; }
+img, video, canvas, svg { max-width: 100%; }
+
+@media (max-width: 640px) {
+  /* iOS inputa toxunanda sehifeni zoom etmesin */
+  input, select, textarea { font-size: 16px !important; }
+
+  /* Pencereler: kenardan az bosluq, ekrana siqsin, sagdaki baglama duymesi basligla toqquşmasin */
+  .fixed.inset-0.overflow-y-auto { padding: .5rem !important; -webkit-overflow-scrolling: touch; overscroll-behavior: contain; }
+  .fixed.inset-0 > .relative:has(> button.absolute.top-4.right-4) { padding: 3.5rem 1rem 1.25rem !important; }
+  .fixed.inset-0 > .relative:has(> button.absolute.top-4.right-4) > button.absolute.top-4.right-4 { top: .75rem; right: .75rem; }
+  .fixed.inset-0 > div { max-width: 100%; }
+
+  /* Lugat & Flashcards: yuxari zolaqlar sola-saga surusdurulsun, duymeler sigsin */
+  .fixed.inset-0 .flex.items-center.bg-slate-950.p-1.rounded-2xl { width: 100%; max-width: 100%; overflow-x: auto; -webkit-overflow-scrolling: touch; scrollbar-width: none; }
+  .fixed.inset-0 .flex.items-center.bg-slate-950.p-1.rounded-2xl::-webkit-scrollbar { display: none; }
+  .fixed.inset-0 .flex.items-center.bg-slate-950.p-1.rounded-2xl > button { white-space: nowrap; flex-shrink: 0; }
+  .fixed.inset-0 .p-6.flex-1.flex.flex-col { padding: 1rem; min-height: 320px; }
+
+  /* Bildiris kartlari ve alt nisan: safe-area nezere alinsin */
+  .fixed.right-3.bottom-14 { bottom: calc(3.5rem + env(safe-area-inset-bottom, 0px)); right: .5rem; width: calc(100vw - 1rem); max-width: 360px; }
+  #month-badge { max-width: 70vw; }
+}
+
+/* Toxunma cihazlari: duymeler asan basilsin, hover "ilisib" qalmasin */
+@media (pointer: coarse) {
+  button { min-height: 40px; touch-action: manipulation; }
+  button:not(:disabled):hover { filter: none; }
+  #root [class*="rounded-3xl"]:hover, #root [class*="rounded-2xl"]:hover { box-shadow: none; }
+}

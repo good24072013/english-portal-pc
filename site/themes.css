@@ -1,0 +1,417 @@
+/* Monthly theme pack - changes colours only (Tailwind colour variables). Nothing in the app code is changed. */
+html[data-month="1"] {
+  /* January - Winter */
+  --color-slate-700: oklch(37.0% 0.035 250);
+  --color-slate-800: oklch(28.0% 0.039 250);
+  --color-slate-900: oklch(20.5% 0.039 250);
+  --color-slate-950: oklch(13.5% 0.039 250);
+  --color-blue-200: oklch(88.0% 0.038 240);
+  --color-blue-300: oklch(81.0% 0.061 240);
+  --color-blue-400: oklch(72.0% 0.088 240);
+  --color-blue-500: oklch(64.0% 0.110 240);
+  --color-blue-600: oklch(56.0% 0.110 240);
+  --color-blue-700: oklch(49.0% 0.104 240);
+  --color-blue-800: oklch(42.0% 0.088 240);
+  --color-blue-900: oklch(37.0% 0.066 240);
+  --color-blue-950: oklch(28.0% 0.050 240);
+  --color-indigo-200: oklch(88.0% 0.038 260);
+  --color-indigo-300: oklch(81.0% 0.061 260);
+  --color-indigo-400: oklch(72.0% 0.088 260);
+  --color-indigo-500: oklch(64.0% 0.110 260);
+  --color-indigo-600: oklch(56.0% 0.110 260);
+  --color-indigo-700: oklch(49.0% 0.104 260);
+  --color-indigo-800: oklch(42.0% 0.088 260);
+  --color-indigo-900: oklch(37.0% 0.066 260);
+  --color-indigo-950: oklch(28.0% 0.050 260);
+  --color-purple-200: oklch(88.0% 0.038 275);
+  --color-purple-300: oklch(81.0% 0.061 275);
+  --color-purple-400: oklch(72.0% 0.088 275);
+  --color-purple-500: oklch(64.0% 0.110 275);
+  --color-purple-600: oklch(56.0% 0.110 275);
+  --color-purple-700: oklch(49.0% 0.104 275);
+  --color-purple-800: oklch(42.0% 0.088 275);
+  --color-purple-900: oklch(37.0% 0.066 275);
+  --color-purple-950: oklch(28.0% 0.050 275);
+}
+html[data-month="2"] {
+  /* February - Winter Rose */
+  --color-slate-700: oklch(37.0% 0.035 350);
+  --color-slate-800: oklch(28.0% 0.039 350);
+  --color-slate-900: oklch(20.5% 0.039 350);
+  --color-slate-950: oklch(13.5% 0.039 350);
+  --color-blue-200: oklch(88.0% 0.059 355);
+  --color-blue-300: oklch(81.0% 0.094 355);
+  --color-blue-400: oklch(72.0% 0.136 355);
+  --color-blue-500: oklch(64.0% 0.170 355);
+  --color-blue-600: oklch(56.0% 0.170 355);
+  --color-blue-700: oklch(49.0% 0.162 355);
+  --color-blue-800: oklch(42.0% 0.136 355);
+  --color-blue-900: oklch(37.0% 0.102 355);
+  --color-blue-950: oklch(28.0% 0.077 355);
+  --color-indigo-200: oklch(88.0% 0.059 15);
+  --color-indigo-300: oklch(81.0% 0.094 15);
+  --color-indigo-400: oklch(72.0% 0.136 15);
+  --color-indigo-500: oklch(64.0% 0.170 15);
+  --color-indigo-600: oklch(56.0% 0.170 15);
+  --color-indigo-700: oklch(49.0% 0.162 15);
+  --color-indigo-800: oklch(42.0% 0.136 15);
+  --color-indigo-900: oklch(37.0% 0.102 15);
+  --color-indigo-950: oklch(28.0% 0.077 15);
+  --color-purple-200: oklch(88.0% 0.059 20);
+  --color-purple-300: oklch(81.0% 0.094 20);
+  --color-purple-400: oklch(72.0% 0.136 20);
+  --color-purple-500: oklch(64.0% 0.170 20);
+  --color-purple-600: oklch(56.0% 0.170 20);
+  --color-purple-700: oklch(49.0% 0.162 20);
+  --color-purple-800: oklch(42.0% 0.136 20);
+  --color-purple-900: oklch(37.0% 0.102 20);
+  --color-purple-950: oklch(28.0% 0.077 20);
+}
+html[data-month="3"] {
+  /* March - Novruz & Spring */
+  --color-slate-700: oklch(37.0% 0.035 150);
+  --color-slate-800: oklch(28.0% 0.039 150);
+  --color-slate-900: oklch(20.5% 0.039 150);
+  --color-slate-950: oklch(13.5% 0.039 150);
+  --color-blue-200: oklch(88.0% 0.056 140);
+  --color-blue-300: oklch(81.0% 0.088 140);
+  --color-blue-400: oklch(72.0% 0.128 140);
+  --color-blue-500: oklch(64.0% 0.160 140);
+  --color-blue-600: oklch(56.0% 0.160 140);
+  --color-blue-700: oklch(49.0% 0.152 140);
+  --color-blue-800: oklch(42.0% 0.128 140);
+  --color-blue-900: oklch(37.0% 0.096 140);
+  --color-blue-950: oklch(28.0% 0.072 140);
+  --color-indigo-200: oklch(88.0% 0.056 160);
+  --color-indigo-300: oklch(81.0% 0.088 160);
+  --color-indigo-400: oklch(72.0% 0.128 160);
+  --color-indigo-500: oklch(64.0% 0.160 160);
+  --color-indigo-600: oklch(56.0% 0.160 160);
+  --color-indigo-700: oklch(49.0% 0.152 160);
+  --color-indigo-800: oklch(42.0% 0.128 160);
+  --color-indigo-900: oklch(37.0% 0.096 160);
+  --color-indigo-950: oklch(28.0% 0.072 160);
+  --color-purple-200: oklch(88.0% 0.056 90);
+  --color-purple-300: oklch(81.0% 0.088 90);
+  --color-purple-400: oklch(72.0% 0.128 90);
+  --color-purple-500: oklch(64.0% 0.160 90);
+  --color-purple-600: oklch(56.0% 0.160 90);
+  --color-purple-700: oklch(49.0% 0.152 90);
+  --color-purple-800: oklch(42.0% 0.128 90);
+  --color-purple-900: oklch(37.0% 0.096 90);
+  --color-purple-950: oklch(28.0% 0.072 90);
+}
+html[data-month="4"] {
+  /* April - Spring Bloom */
+  --color-slate-700: oklch(37.0% 0.035 320);
+  --color-slate-800: oklch(28.0% 0.039 320);
+  --color-slate-900: oklch(20.5% 0.039 320);
+  --color-slate-950: oklch(13.5% 0.039 320);
+  --color-blue-200: oklch(88.0% 0.059 325);
+  --color-blue-300: oklch(81.0% 0.094 325);
+  --color-blue-400: oklch(72.0% 0.136 325);
+  --color-blue-500: oklch(64.0% 0.170 325);
+  --color-blue-600: oklch(56.0% 0.170 325);
+  --color-blue-700: oklch(49.0% 0.162 325);
+  --color-blue-800: oklch(42.0% 0.136 325);
+  --color-blue-900: oklch(37.0% 0.102 325);
+  --color-blue-950: oklch(28.0% 0.077 325);
+  --color-indigo-200: oklch(88.0% 0.059 345);
+  --color-indigo-300: oklch(81.0% 0.094 345);
+  --color-indigo-400: oklch(72.0% 0.136 345);
+  --color-indigo-500: oklch(64.0% 0.170 345);
+  --color-indigo-600: oklch(56.0% 0.170 345);
+  --color-indigo-700: oklch(49.0% 0.162 345);
+  --color-indigo-800: oklch(42.0% 0.136 345);
+  --color-indigo-900: oklch(37.0% 0.102 345);
+  --color-indigo-950: oklch(28.0% 0.077 345);
+  --color-purple-200: oklch(88.0% 0.059 290);
+  --color-purple-300: oklch(81.0% 0.094 290);
+  --color-purple-400: oklch(72.0% 0.136 290);
+  --color-purple-500: oklch(64.0% 0.170 290);
+  --color-purple-600: oklch(56.0% 0.170 290);
+  --color-purple-700: oklch(49.0% 0.162 290);
+  --color-purple-800: oklch(42.0% 0.136 290);
+  --color-purple-900: oklch(37.0% 0.102 290);
+  --color-purple-950: oklch(28.0% 0.077 290);
+}
+html[data-month="5"] {
+  /* May - Flowers & Independence */
+  --color-slate-700: oklch(37.0% 0.035 195);
+  --color-slate-800: oklch(28.0% 0.039 195);
+  --color-slate-900: oklch(20.5% 0.039 195);
+  --color-slate-950: oklch(13.5% 0.039 195);
+  --color-blue-200: oklch(88.0% 0.045 185);
+  --color-blue-300: oklch(81.0% 0.072 185);
+  --color-blue-400: oklch(72.0% 0.104 185);
+  --color-blue-500: oklch(64.0% 0.130 185);
+  --color-blue-600: oklch(56.0% 0.130 185);
+  --color-blue-700: oklch(49.0% 0.123 185);
+  --color-blue-800: oklch(42.0% 0.104 185);
+  --color-blue-900: oklch(37.0% 0.078 185);
+  --color-blue-950: oklch(28.0% 0.059 185);
+  --color-indigo-200: oklch(88.0% 0.045 205);
+  --color-indigo-300: oklch(81.0% 0.072 205);
+  --color-indigo-400: oklch(72.0% 0.104 205);
+  --color-indigo-500: oklch(64.0% 0.130 205);
+  --color-indigo-600: oklch(56.0% 0.130 205);
+  --color-indigo-700: oklch(49.0% 0.123 205);
+  --color-indigo-800: oklch(42.0% 0.104 205);
+  --color-indigo-900: oklch(37.0% 0.078 205);
+  --color-indigo-950: oklch(28.0% 0.059 205);
+  --color-purple-200: oklch(88.0% 0.045 20);
+  --color-purple-300: oklch(81.0% 0.072 20);
+  --color-purple-400: oklch(72.0% 0.104 20);
+  --color-purple-500: oklch(64.0% 0.130 20);
+  --color-purple-600: oklch(56.0% 0.130 20);
+  --color-purple-700: oklch(49.0% 0.123 20);
+  --color-purple-800: oklch(42.0% 0.104 20);
+  --color-purple-900: oklch(37.0% 0.078 20);
+  --color-purple-950: oklch(28.0% 0.059 20);
+}
+html[data-month="6"] {
+  /* June - Summer Sun */
+  --color-slate-700: oklch(37.0% 0.030 70);
+  --color-slate-800: oklch(28.0% 0.033 70);
+  --color-slate-900: oklch(20.5% 0.033 70);
+  --color-slate-950: oklch(13.5% 0.033 70);
+  --color-blue-200: oklch(88.0% 0.052 70);
+  --color-blue-300: oklch(81.0% 0.083 70);
+  --color-blue-400: oklch(72.0% 0.120 70);
+  --color-blue-500: oklch(64.0% 0.150 70);
+  --color-blue-600: oklch(56.0% 0.150 70);
+  --color-blue-700: oklch(49.0% 0.142 70);
+  --color-blue-800: oklch(42.0% 0.120 70);
+  --color-blue-900: oklch(37.0% 0.090 70);
+  --color-blue-950: oklch(28.0% 0.068 70);
+  --color-indigo-200: oklch(88.0% 0.052 90);
+  --color-indigo-300: oklch(81.0% 0.083 90);
+  --color-indigo-400: oklch(72.0% 0.120 90);
+  --color-indigo-500: oklch(64.0% 0.150 90);
+  --color-indigo-600: oklch(56.0% 0.150 90);
+  --color-indigo-700: oklch(49.0% 0.142 90);
+  --color-indigo-800: oklch(42.0% 0.120 90);
+  --color-indigo-900: oklch(37.0% 0.090 90);
+  --color-indigo-950: oklch(28.0% 0.068 90);
+  --color-purple-200: oklch(88.0% 0.052 40);
+  --color-purple-300: oklch(81.0% 0.083 40);
+  --color-purple-400: oklch(72.0% 0.120 40);
+  --color-purple-500: oklch(64.0% 0.150 40);
+  --color-purple-600: oklch(56.0% 0.150 40);
+  --color-purple-700: oklch(49.0% 0.142 40);
+  --color-purple-800: oklch(42.0% 0.120 40);
+  --color-purple-900: oklch(37.0% 0.090 40);
+  --color-purple-950: oklch(28.0% 0.068 40);
+}
+html[data-month="7"] {
+  /* July - Summer Sea */
+  --color-slate-700: oklch(37.0% 0.040 225);
+  --color-slate-800: oklch(28.0% 0.044 225);
+  --color-slate-900: oklch(20.5% 0.044 225);
+  --color-slate-950: oklch(13.5% 0.044 225);
+  --color-blue-200: oklch(88.0% 0.056 215);
+  --color-blue-300: oklch(81.0% 0.088 215);
+  --color-blue-400: oklch(72.0% 0.128 215);
+  --color-blue-500: oklch(64.0% 0.160 215);
+  --color-blue-600: oklch(56.0% 0.160 215);
+  --color-blue-700: oklch(49.0% 0.152 215);
+  --color-blue-800: oklch(42.0% 0.128 215);
+  --color-blue-900: oklch(37.0% 0.096 215);
+  --color-blue-950: oklch(28.0% 0.072 215);
+  --color-indigo-200: oklch(88.0% 0.056 235);
+  --color-indigo-300: oklch(81.0% 0.088 235);
+  --color-indigo-400: oklch(72.0% 0.128 235);
+  --color-indigo-500: oklch(64.0% 0.160 235);
+  --color-indigo-600: oklch(56.0% 0.160 235);
+  --color-indigo-700: oklch(49.0% 0.152 235);
+  --color-indigo-800: oklch(42.0% 0.128 235);
+  --color-indigo-900: oklch(37.0% 0.096 235);
+  --color-indigo-950: oklch(28.0% 0.072 235);
+  --color-purple-200: oklch(88.0% 0.056 185);
+  --color-purple-300: oklch(81.0% 0.088 185);
+  --color-purple-400: oklch(72.0% 0.128 185);
+  --color-purple-500: oklch(64.0% 0.160 185);
+  --color-purple-600: oklch(56.0% 0.160 185);
+  --color-purple-700: oklch(49.0% 0.152 185);
+  --color-purple-800: oklch(42.0% 0.128 185);
+  --color-purple-900: oklch(37.0% 0.096 185);
+  --color-purple-950: oklch(28.0% 0.072 185);
+}
+html[data-month="8"] {
+  /* August - Summer Sunset */
+  --color-slate-700: oklch(37.0% 0.035 30);
+  --color-slate-800: oklch(28.0% 0.039 30);
+  --color-slate-900: oklch(20.5% 0.039 30);
+  --color-slate-950: oklch(13.5% 0.039 30);
+  --color-blue-200: oklch(88.0% 0.063 30);
+  --color-blue-300: oklch(81.0% 0.099 30);
+  --color-blue-400: oklch(72.0% 0.144 30);
+  --color-blue-500: oklch(64.0% 0.180 30);
+  --color-blue-600: oklch(56.0% 0.180 30);
+  --color-blue-700: oklch(49.0% 0.171 30);
+  --color-blue-800: oklch(42.0% 0.144 30);
+  --color-blue-900: oklch(37.0% 0.108 30);
+  --color-blue-950: oklch(28.0% 0.081 30);
+  --color-indigo-200: oklch(88.0% 0.063 50);
+  --color-indigo-300: oklch(81.0% 0.099 50);
+  --color-indigo-400: oklch(72.0% 0.144 50);
+  --color-indigo-500: oklch(64.0% 0.180 50);
+  --color-indigo-600: oklch(56.0% 0.180 50);
+  --color-indigo-700: oklch(49.0% 0.171 50);
+  --color-indigo-800: oklch(42.0% 0.144 50);
+  --color-indigo-900: oklch(37.0% 0.108 50);
+  --color-indigo-950: oklch(28.0% 0.081 50);
+  --color-purple-200: oklch(88.0% 0.063 60);
+  --color-purple-300: oklch(81.0% 0.099 60);
+  --color-purple-400: oklch(72.0% 0.144 60);
+  --color-purple-500: oklch(64.0% 0.180 60);
+  --color-purple-600: oklch(56.0% 0.180 60);
+  --color-purple-700: oklch(49.0% 0.171 60);
+  --color-purple-800: oklch(42.0% 0.144 60);
+  --color-purple-900: oklch(37.0% 0.108 60);
+  --color-purple-950: oklch(28.0% 0.081 60);
+}
+html[data-month="9"] {
+  /* September - Back to School */
+  --color-slate-700: oklch(37.0% 0.040 285);
+  --color-slate-800: oklch(28.0% 0.044 285);
+  --color-slate-900: oklch(20.5% 0.044 285);
+  --color-slate-950: oklch(13.5% 0.044 285);
+  --color-blue-200: oklch(88.0% 0.066 285);
+  --color-blue-300: oklch(81.0% 0.105 285);
+  --color-blue-400: oklch(72.0% 0.152 285);
+  --color-blue-500: oklch(64.0% 0.190 285);
+  --color-blue-600: oklch(56.0% 0.190 285);
+  --color-blue-700: oklch(49.0% 0.180 285);
+  --color-blue-800: oklch(42.0% 0.152 285);
+  --color-blue-900: oklch(37.0% 0.114 285);
+  --color-blue-950: oklch(28.0% 0.086 285);
+  --color-indigo-200: oklch(88.0% 0.066 305);
+  --color-indigo-300: oklch(81.0% 0.105 305);
+  --color-indigo-400: oklch(72.0% 0.152 305);
+  --color-indigo-500: oklch(64.0% 0.190 305);
+  --color-indigo-600: oklch(56.0% 0.190 305);
+  --color-indigo-700: oklch(49.0% 0.180 305);
+  --color-indigo-800: oklch(42.0% 0.152 305);
+  --color-indigo-900: oklch(37.0% 0.114 305);
+  --color-indigo-950: oklch(28.0% 0.086 305);
+  --color-purple-200: oklch(88.0% 0.066 250);
+  --color-purple-300: oklch(81.0% 0.105 250);
+  --color-purple-400: oklch(72.0% 0.152 250);
+  --color-purple-500: oklch(64.0% 0.190 250);
+  --color-purple-600: oklch(56.0% 0.190 250);
+  --color-purple-700: oklch(49.0% 0.180 250);
+  --color-purple-800: oklch(42.0% 0.152 250);
+  --color-purple-900: oklch(37.0% 0.114 250);
+  --color-purple-950: oklch(28.0% 0.086 250);
+}
+html[data-month="10"] {
+  /* October - Autumn */
+  --color-slate-700: oklch(37.0% 0.035 55);
+  --color-slate-800: oklch(28.0% 0.039 55);
+  --color-slate-900: oklch(20.5% 0.039 55);
+  --color-slate-950: oklch(13.5% 0.039 55);
+  --color-blue-200: oklch(88.0% 0.056 55);
+  --color-blue-300: oklch(81.0% 0.088 55);
+  --color-blue-400: oklch(72.0% 0.128 55);
+  --color-blue-500: oklch(64.0% 0.160 55);
+  --color-blue-600: oklch(56.0% 0.160 55);
+  --color-blue-700: oklch(49.0% 0.152 55);
+  --color-blue-800: oklch(42.0% 0.128 55);
+  --color-blue-900: oklch(37.0% 0.096 55);
+  --color-blue-950: oklch(28.0% 0.072 55);
+  --color-indigo-200: oklch(88.0% 0.056 75);
+  --color-indigo-300: oklch(81.0% 0.088 75);
+  --color-indigo-400: oklch(72.0% 0.128 75);
+  --color-indigo-500: oklch(64.0% 0.160 75);
+  --color-indigo-600: oklch(56.0% 0.160 75);
+  --color-indigo-700: oklch(49.0% 0.152 75);
+  --color-indigo-800: oklch(42.0% 0.128 75);
+  --color-indigo-900: oklch(37.0% 0.096 75);
+  --color-indigo-950: oklch(28.0% 0.072 75);
+  --color-purple-200: oklch(88.0% 0.056 30);
+  --color-purple-300: oklch(81.0% 0.088 30);
+  --color-purple-400: oklch(72.0% 0.128 30);
+  --color-purple-500: oklch(64.0% 0.160 30);
+  --color-purple-600: oklch(56.0% 0.160 30);
+  --color-purple-700: oklch(49.0% 0.152 30);
+  --color-purple-800: oklch(42.0% 0.128 30);
+  --color-purple-900: oklch(37.0% 0.096 30);
+  --color-purple-950: oklch(28.0% 0.072 30);
+}
+html[data-month="11"] {
+  /* November - Late Autumn */
+  --color-slate-700: oklch(37.0% 0.032 15);
+  --color-slate-800: oklch(28.0% 0.035 15);
+  --color-slate-900: oklch(20.5% 0.035 15);
+  --color-slate-950: oklch(13.5% 0.035 15);
+  --color-blue-200: oklch(88.0% 0.052 15);
+  --color-blue-300: oklch(81.0% 0.083 15);
+  --color-blue-400: oklch(72.0% 0.120 15);
+  --color-blue-500: oklch(64.0% 0.150 15);
+  --color-blue-600: oklch(56.0% 0.150 15);
+  --color-blue-700: oklch(49.0% 0.142 15);
+  --color-blue-800: oklch(42.0% 0.120 15);
+  --color-blue-900: oklch(37.0% 0.090 15);
+  --color-blue-950: oklch(28.0% 0.068 15);
+  --color-indigo-200: oklch(88.0% 0.052 35);
+  --color-indigo-300: oklch(81.0% 0.083 35);
+  --color-indigo-400: oklch(72.0% 0.120 35);
+  --color-indigo-500: oklch(64.0% 0.150 35);
+  --color-indigo-600: oklch(56.0% 0.150 35);
+  --color-indigo-700: oklch(49.0% 0.142 35);
+  --color-indigo-800: oklch(42.0% 0.120 35);
+  --color-indigo-900: oklch(37.0% 0.090 35);
+  --color-indigo-950: oklch(28.0% 0.068 35);
+  --color-purple-200: oklch(88.0% 0.052 50);
+  --color-purple-300: oklch(81.0% 0.083 50);
+  --color-purple-400: oklch(72.0% 0.120 50);
+  --color-purple-500: oklch(64.0% 0.150 50);
+  --color-purple-600: oklch(56.0% 0.150 50);
+  --color-purple-700: oklch(49.0% 0.142 50);
+  --color-purple-800: oklch(42.0% 0.120 50);
+  --color-purple-900: oklch(37.0% 0.090 50);
+  --color-purple-950: oklch(28.0% 0.068 50);
+}
+html[data-month="12"] {
+  /* December - New Year */
+  --color-slate-700: oklch(37.0% 0.035 170);
+  --color-slate-800: oklch(28.0% 0.039 170);
+  --color-slate-900: oklch(20.5% 0.039 170);
+  --color-slate-950: oklch(13.5% 0.039 170);
+  --color-blue-200: oklch(88.0% 0.045 165);
+  --color-blue-300: oklch(81.0% 0.072 165);
+  --color-blue-400: oklch(72.0% 0.104 165);
+  --color-blue-500: oklch(64.0% 0.130 165);
+  --color-blue-600: oklch(56.0% 0.130 165);
+  --color-blue-700: oklch(49.0% 0.123 165);
+  --color-blue-800: oklch(42.0% 0.104 165);
+  --color-blue-900: oklch(37.0% 0.078 165);
+  --color-blue-950: oklch(28.0% 0.059 165);
+  --color-indigo-200: oklch(88.0% 0.045 185);
+  --color-indigo-300: oklch(81.0% 0.072 185);
+  --color-indigo-400: oklch(72.0% 0.104 185);
+  --color-indigo-500: oklch(64.0% 0.130 185);
+  --color-indigo-600: oklch(56.0% 0.130 185);
+  --color-indigo-700: oklch(49.0% 0.123 185);
+  --color-indigo-800: oklch(42.0% 0.104 185);
+  --color-indigo-900: oklch(37.0% 0.078 185);
+  --color-indigo-950: oklch(28.0% 0.059 185);
+  --color-purple-200: oklch(88.0% 0.045 25);
+  --color-purple-300: oklch(81.0% 0.072 25);
+  --color-purple-400: oklch(72.0% 0.104 25);
+  --color-purple-500: oklch(64.0% 0.130 25);
+  --color-purple-600: oklch(56.0% 0.130 25);
+  --color-purple-700: oklch(49.0% 0.123 25);
+  --color-purple-800: oklch(42.0% 0.104 25);
+  --color-purple-900: oklch(37.0% 0.078 25);
+  --color-purple-950: oklch(28.0% 0.059 25);
+}
+
+/* small month label */
+#month-badge {
+  position: fixed; left: 12px; bottom: 12px; z-index: 40; pointer-events: none;
+  padding: 4px 10px; border-radius: 999px; font: 600 11px/1.4 system-ui, sans-serif;
+  color: var(--color-blue-200); background: color-mix(in oklab, var(--color-slate-900) 85%, transparent);
+  border: 1px solid var(--color-slate-700); opacity: .85;
+}

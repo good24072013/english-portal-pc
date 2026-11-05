@@ -1,0 +1,162 @@
+{
+  "name": "English Learning Portal",
+  "short_name": "English Portal",
+  "description": "Interactive English Learning Portal: grammar, vocabulary, speaking, quizzes and IELTS preparation.",
+  "id": "/",
+  "start_url": "/?source=pwa",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "lang": "en",
+  "background_color": "#1e293b",
+  "theme_color": "#1e293b",
+  "categories": [
+    "education"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "IELTS Homework",
+      "short_name": "IELTS",
+      "url": "/?source=shortcut",
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ]
+    }
+  ],
+  "display_override": [
+    "window-controls-overlay",
+    "tabbed",
+    "standalone",
+    "minimal-ui"
+  ],
+  "tab_strip": {
+    "home_tab": "auto",
+    "new_tab_button": {
+      "url": "/"
+    }
+  },
+  "edge_side_panel": {
+    "preferred_width": 480
+  },
+  "launch_handler": {
+    "client_mode": [
+      "navigate-existing",
+      "auto"
+    ]
+  },
+  "note_taking": {
+    "new_note_url": "/?note=new"
+  },
+  "protocol_handlers": [
+    {
+      "protocol": "web+english",
+      "url": "/?protocol=%s"
+    }
+  ],
+  "file_handlers": [
+    {
+      "action": "/?source=file",
+      "accept": {
+        "text/plain": [
+          ".txt"
+        ],
+        "application/pdf": [
+          ".pdf"
+        ]
+      },
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ],
+      "launch_type": "single-client"
+    }
+  ],
+  "share_target": {
+    "action": "/share-target",
+    "method": "GET",
+    "params": {
+      "title": "title",
+      "text": "text",
+      "url": "url"
+    }
+  },
+  "widgets": [
+    {
+      "name": "Word of the Day",
+      "short_name": "Word",
+      "tag": "word-of-day",
+      "description": "A new English word every day with Azerbaijani translation and an example.",
+      "ms_ac_template": "/widgets/word-template.json",
+      "data": "/widgets/word-data.json",
+      "type": "application/json",
+      "screenshots": [
+        {
+          "src": "/widgets/word-shot.png",
+          "sizes": "600x400",
+          "label": "Word of the Day widget"
+        }
+      ],
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ],
+      "auth": false,
+      "update": 86400
+    },
+    {
+      "name": "Daily Study Tip",
+      "short_name": "Tip",
+      "tag": "daily-tip",
+      "description": "A short English learning tip every day.",
+      "ms_ac_template": "/widgets/tip-template.json",
+      "data": "/widgets/tip-data.json",
+      "type": "application/json",
+      "screenshots": [
+        {
+          "src": "/widgets/tip-shot.png",
+          "sizes": "600x400",
+          "label": "Daily Study Tip widget"
+        }
+      ],
+      "icons": [
+        {
+          "src": "/icons/icon-192.png",
+          "sizes": "192x192",
+          "type": "image/png"
+        }
+      ],
+      "auth": false,
+      "update": 86400
+    }
+  ]
+}

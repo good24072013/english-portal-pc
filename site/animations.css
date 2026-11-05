@@ -1,0 +1,42 @@
+/* Gelismis animasiyalar. Hereket azaldilmasi (reduced-motion) secilibse hamisi sondurulur.
+   Qeyd: fill-mode "backwards" istifade olunur ki, animasiyadan sonra transform qalmasin (fixed pencereler pozulmasin). */
+@keyframes elp-rise { from { opacity: 0; transform: translateY(22px) scale(.985); } to { opacity: 1; transform: none; } }
+@keyframes elp-fade { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: none; } }
+@keyframes elp-pop { 0% { opacity: 0; transform: translateY(16px) scale(.94); } 100% { opacity: 1; transform: none; } }
+@keyframes elp-toast { 0% { opacity: 0; transform: translateX(110%); } 100% { opacity: 1; transform: none; } }
+@keyframes elp-ripple { from { opacity: .5; } to { transform: scale(1); opacity: 0; } }
+@keyframes elp-reveal { from { clip-path: circle(0px at var(--ox, 50%) var(--oy, 50%)); } to { clip-path: circle(150% at var(--ox, 50%) var(--oy, 50%)); } }
+@keyframes elp-float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-4px); } }
+
+/* Sehife / bolme kecidi (kodda istifade olunan, amma teyin olunmayan sinif) */
+.animate-fadeIn { animation: elp-fade .45s cubic-bezier(.4,0,.2,1) backwards; }
+
+/* Kartlarin skroll ile gorunmesi (JS sinifleri elave edir) */
+.elp-pre { opacity: 0; transform: translateY(24px) scale(.985); }
+.fixed.inset-0.elp-reveal { animation: elp-reveal .6s cubic-bezier(.4,0,.2,1) backwards; }
+.elp-in { animation: elp-rise .6s cubic-bezier(.4,0,.2,1) var(--elp-d, 0ms) backwards; }
+
+/* Pencereler (modal) ve bildiris kartlari */
+.fixed.inset-0 > :first-child { animation: elp-pop .45s cubic-bezier(.4,0,.2,1) backwards; }
+.fixed.right-3.bottom-14 > * { animation: elp-toast .6s cubic-bezier(.4,0,.2,1) backwards; }
+
+/* Duymeler: hover / basma hissi */
+button, [role="button"], a { transition: transform .15s ease, box-shadow .25s ease, filter .2s ease, background-color .2s ease, border-color .2s ease, color .2s ease; }
+button:not(:disabled):hover { filter: brightness(1.1); }
+button:not(:disabled):active { transform: scale(.96); }
+
+/* Kartlar: hover zamani yumsaq parilti (transform yoxdur) */
+#root [class*="rounded-3xl"], #root [class*="rounded-2xl"] { transition: box-shadow .3s ease, border-color .3s ease; }
+#root [class*="rounded-3xl"]:hover, #root [class*="rounded-2xl"]:hover { box-shadow: 0 14px 34px -14px rgba(0,0,0,.65); }
+
+/* Ripple (dalga) effekti */
+.elp-ripple-wrap { position: absolute; inset: 0; border-radius: inherit; overflow: hidden; pointer-events: none; }
+.elp-ripple { position: absolute; border-radius: 50%; background: var(--color-blue-300, #fff); transform: scale(0); animation: elp-ripple .6s ease-out forwards; }
+
+/* Ay nisani yungul suzme */
+#month-badge { animation: elp-float 4s ease-in-out infinite; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  .elp-pre { opacity: 1; transform: none; }
+}
