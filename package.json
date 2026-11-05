@@ -1,0 +1,23 @@
+{
+  "name": "english-portal-desktop",
+  "version": "1.0.0",
+  "description": "English Learning Portal - PC versiyası",
+  "author": "Good",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "dist": "electron-builder --win --publish never"
+  },
+  "devDependencies": {
+    "electron": "33.2.1",
+    "electron-builder": "25.1.8"
+  },
+  "build": {
+    "appId": "az.englishportal.app",
+    "productName": "English Portal",
+    "files": ["main.js", "server.js", "offline-desktop.html", "config.json", "icon.png", "site/**/*"],
+    "win": { "target": ["nsis", "portable"], "icon": "icon.ico" },
+    "nsis": { "oneClick": false, "allowToChangeInstallationDirectory": true, "createDesktopShortcut": true },
+    "artifactName": "English-Portal-${version}-${arch}.${ext}"
+  }
+}

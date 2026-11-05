@@ -1,0 +1,9 @@
+<!doctype html><html lang="az"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>İnternet yoxdur</title>
+<style>html,body{height:100%;margin:0;background:#020617;color:#e2e8f0;font:16px system-ui,sans-serif}body{display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
+h1{font-size:22px;margin:.4em 0}p{color:#94a3b8;max-width:360px}button{margin-top:14px;padding:11px 22px;border:0;border-radius:12px;background:#2563eb;color:#fff;font:600 15px system-ui;cursor:pointer}</style></head>
+<body><div><div style="font-size:54px">📡</div><h1>İnternet bağlantısı yoxdur</h1><p>Bağlantı bərpa olunanda tətbiq avtomatik açılacaq.</p><button id="b">Yenidən yoxla</button></div>
+<script>
+var u=new URLSearchParams(location.search).get('u')||'';
+function go(){if(/^https?:\/\//.test(u))location.href=u}
+document.getElementById('b').onclick=go;addEventListener('online',go);
+</script></body></html>
